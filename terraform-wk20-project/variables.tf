@@ -55,7 +55,7 @@ variable "public_subnet" {
 variable "public_subnet_cidrs" {
   type        = list(string)
   description = "Public Subnet CIDR values"
-  default     = [] 
+  default     = []
 }
 
 # VPC Availabilty Zones
